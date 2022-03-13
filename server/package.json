@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Node Project",
   "main": "server.js",
-  "scripts": { 
-    "start":"nodemon server.js"
+  "scripts": {
+    "start": "nodemon --delay 500ms server.js"
   },
   "author": "Mrutunjay",
   "license": "ISC",
@@ -13,6 +13,10 @@
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "mongoose": "^6.2.5",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "react-scripts": "^2.1.8"
+  },
+  "devDependencies": {
+    "ws": "3.3.2"
   }
 }

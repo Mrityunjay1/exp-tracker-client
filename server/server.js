@@ -22,7 +22,7 @@ con.then(db => {
     app.listen(port, () => {
         console.log(`Server is running on port: http://localhost:${port}`)
     })
-
+    
     app.on('error', err => console.log(`Failed To Connect with HTTP Server : ${err}`));
     // error in mondb connection
 }).catch(error => {
